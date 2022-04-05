@@ -1,5 +1,7 @@
 # eval
-A tiny evaluator of scheme expressions  
+A tiny evaluator of scheme expressions 
+
+![demo](https://github.com/nichtsen/lis/raw/main/eval/img/demo.gif)
 
 ## expression
 - define-expr
@@ -49,12 +51,14 @@ compute fibonacci with evaluator:
 ```eval
 Eval-go INPUT:
 define fib(n) { 
-    if ==(n,0) { 0 } 
-    if ==(n,1) { 1 } 
-    +(fib(-(n,1)),fib(-(n,2))) 
+    if ==(n, 0) {0} 
+    if ==(n, 1) {1} 
+    +(fib(-(n,1)), fib(-(n,2))) 
     };
 Eval-go INPUT:
 fib(10);
 Eval-go OUTPUT:
  55 
 ```
+# document
+[godoc](https://godoc.org/github.com/nichtsen/goeval)
