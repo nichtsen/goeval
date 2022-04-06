@@ -63,5 +63,3 @@ fib(10);
 Eval-go OUTPUT:
  55 
 ```
-# document
-[godoc](https://godoc.org/github.com/nichtsen/goeval)
