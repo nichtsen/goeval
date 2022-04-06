@@ -16,7 +16,7 @@ func InitGlobal() {
 	GlobalEnv = &Environment{
 		Frame: Frame{
 			"+":         Procedure(add),
-			"-":         Procedure(substract),
+			"-":         Procedure(subtract),
 			"*":         Procedure(multiply),
 			"==":        Procedure(equal),
 			">":         Procedure(larger),
@@ -53,7 +53,7 @@ func multiply(args ...interface{}) interface{} {
 	return args[0].(int) * args[1].(int)
 }
 
-func substract(args ...interface{}) interface{} {
+func subtract(args ...interface{}) interface{} {
 	return args[0].(int) - args[1].(int)
 }
 
