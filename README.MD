@@ -1,3 +1,5 @@
+[![Latest Release](https://img.shields.io/github/release/nichtsen/goeval.svg)](https://github.com/nichtsen/goeval/releases)
+[![Go ReportCard](https://goreportcard.com/badge/nichtsen/goeval)](https://goreportcard.com/report/nichtsen/goeval)
 [![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/nichtsen/goeval)
 
 A tiny evaluator of scheme expressions 
