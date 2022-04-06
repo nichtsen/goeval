@@ -1,4 +1,5 @@
-# eval
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/nichtsen/goeval)
+
 A tiny evaluator of scheme expressions 
 
 ![demo](https://github.com/nichtsen/lis/raw/main/eval/img/demo.gif)
