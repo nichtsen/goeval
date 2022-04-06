@@ -42,7 +42,7 @@ perform application-expr
 
 ## Remark
 Core of evaluator is interleaving of `eval` and `apply` loop. Everytime eval enconters a
-application it call apply to make acctual calling.
+application it call apply to make actually calling.
 A compound procedure is a sequence of expression to be evaluated 
 within a given environment.
 
